@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body onload="tabelaNewSort.getDataFromURL('https://recruitment.hal.skygate.io/companies')">
+<div class="searchBox">
+    <div class="searchByName">
+        <h1>Data table</h1>
+
+        <input type="text" id="searchInput" onkeyup="tabelaNewSort.findText()" placeholder="Search by names.."
+               title="Type in a name">
+    </div>
+    <div id="showData"></div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
